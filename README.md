@@ -22,7 +22,11 @@
 ### 依賴安裝
 ```bash
 # Python 版本 (推薦)
-pip install speedtest-cli requests
+git clone https://github.com/LilWang3399/speedtest-traffic-consumer.git
+cd speedtest-traffic-consumer
+python src/main.py --interval 300
 
 # Bash 版本 (Debian/Ubuntu)
-sudo apt-get update && sudo apt-get install -y speedtest-cli
+wget https://raw.githubusercontent.com/LilWang3399/speedtest-traffic-consumer/main/scripts/speedtest.sh
+chmod +x speedtest.sh
+./speedtest.sh --no-upload
