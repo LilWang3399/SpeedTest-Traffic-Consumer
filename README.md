@@ -1,2 +1,28 @@
-# SpeedTest-Traffic-Consumer
-自動化網絡測速流量消耗工具，基於 speedtest.net 基礎設施實現
+# 🚀 SpeedTest 流量消耗器
+
+[![Python版本](https://img.shields.io/badge/Python-3.6%2B-blue)](https://www.python.org/)
+[![授權協議](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+
+自動化網絡流量消耗工具，基於 Speedtest.net 的測速協議實現
+
+## 🌟 功能亮點
+- 🔁 自動循環執行網絡測速
+- 📶 實時顯示上下行帶寬
+- 🧮 智能流量消耗估算
+- 🌐 支持全球伺服器選擇
+- ⚡ 雙版本支持 (Python/Bash)
+
+## 🛠️ 安裝指南
+
+### 前置需求
+- Python 3.6+ 或 Bash 環境
+- 100MB 以上可用磁盤空間
+- 穩定的網絡連接
+
+### 依賴安裝
+```bash
+# Python 版本 (推薦)
+pip install speedtest-cli requests
+
+# Bash 版本 (Debian/Ubuntu)
+sudo apt-get update && sudo apt-get install -y speedtest-cli
